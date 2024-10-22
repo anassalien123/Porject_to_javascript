@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", system-ui;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    background-image: linear-gradient(#8e6728, #e39e31);
+    height: 80px;
+    position: relative;
+}
+.logo{
+    margin: 3px;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin: 10px 40px;
+    width: 97px;
+    background: #f5a729;
+    border-radius: 150px 10px;
+    color: #fff;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin: 40px;
+    position: absolute;
+    top: -8px;
+    left: 400px;
+}
+.list li a{
+    text-decoration: none;
+    padding: 29px;
+    color: #fff;
+}
+.login-list{
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    position: absolute;
+    right: 20px;
+    top: 6px;
+}
+.login-list li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px; 
+    color: #fff;
+    border: 2px solid;
+    border-radius: 40px;
+    transition: background 0.3s; 
+}
+.login-list li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Light background on hover */
+}
+.title{
+    background:  #17202a ;
+    width: 100%;
+    height: 65px;
+}
+.title h1{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 14px;
+    letter-spacing: 9px;
+}
+.title h1 span{
+    color:  #e74c3c;
+}
+.cont{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.cont .what i{
+    font-size: 50px;
+    color:  #2ecc71 ;
+}
+.container{
+    margin: 80px 200px;
+    display: flex;
+    position: relative;
+}
+.container h4{
+    font-size: x-large;
+    color:   #979a9a;
+    font-weight: 900;
+}
+.container ul{
+    list-style: none;
+    padding-left: 43rem;
+    padding-top: 1px;
+}
+.container span{
+    color: #979a9a;
+    font-weight: 700;
+}
+.container ul li{
+    display: inline-block;
+    padding: 9px;
+    text-decoration: none;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #17202a;
+}
+.container ul li a:hover{
+    color: #e74c3c;
+    transition: .5s;
+    font-weight: 500;
+}
+.contant{
+    display: flex;
+    height: 680px;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+}
+.contant .box{
+    width: 440px;
+    border: 1px solid #17202a;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contant .box img{
+    border-radius: 20px;
+}
+.contant .box img:hover{
+    border-radius: 0;
+    transition: .5s;
+    box-shadow: 1px 1px 19px 1px #e74c3c;
+}
+.contant .box p{
+    font-size: x-large;
+    text-align: center;
+    font-weight: 200;
+    color:  #17202a;
+}
+.contant .box .del{
+    text-decoration-line: line-through;
+    font-size: medium;
+    color: #000;
+}
+.contant .box .clo{
+    color: #e74c3c;
+    font-weight: 500;
+}
+.contant .box a{
+    border: 1px solid;
+    padding: 10px 60px;
+    margin: 60px;
+    position: absolute;
+    bottom: -8px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #979a9a;
+}
+.contant .box a:hover{
+    color: #e74c3c;
+    transition: .2s;
+    font-weight: 600;
+}
